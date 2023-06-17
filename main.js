@@ -7,8 +7,8 @@ console.log(Sum/i)
 
 let str = "tiko"
 let x = ""
-let Upper = ""
-for(let i=0; i<=str.length; i++){
-     Upper = str.toLocaleUpperCase(i)
+let Upper = str.toLocaleUpperCase()
+for(let i=0; i <= str.length - 1; i++){
+    x+=Upper[i]
 } 
-console.log(Upper)
+console.log(x)
