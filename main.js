@@ -12,3 +12,11 @@ for(let i=0; i <= str.length - 1; i++){
     x+=Upper[i]
 } 
 console.log(x)
+///// შევაბრუნოთ დდ
+let strr = "isev tiko"
+let UC = strr.toLocaleUpperCase()
+let result = ""
+for( i = strr.length - 1; i >= 0; i--){
+    result +=UC[i]
+}
+console.log(result)
